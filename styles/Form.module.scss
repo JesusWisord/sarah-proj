@@ -1,0 +1,19 @@
+.formContainer{
+  width: 90vw;
+  margin-bottom: 50px;
+  form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  label{
+    width: 300px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    input{
+      width: 70%;
+    }
+  }
+}

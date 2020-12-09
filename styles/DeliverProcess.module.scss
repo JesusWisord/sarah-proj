@@ -1,0 +1,16 @@
+.deliverProcess{
+  display: flex;
+  flex-direction: column;
+  img{
+    max-height: 300px;
+    margin: 0 40px;
+  }
+  .paragraph{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    p {
+      margin: 0 50px
+    }
+  }
+}
