@@ -2,7 +2,7 @@ import React from 'react';
 import styles from '../styles/Header.module.scss';
 
 const Header = () => (
-  <header class={styles.header} >
+  <header className={styles.header} >
     <img src="/logo.jpg" alt=""/>
     <nav>
       <ul>
