@@ -2,7 +2,7 @@ import React from 'react';
 import styles from '../styles/DeliverProcess.module.scss';
 
 const DeliverProcess = () => (
-  <div className={styles.deliverProcess}>
+  <div className={styles.deliverProcess} id="proceso">
     <h1 className={styles.title}>Procesos de envío</h1>
     <div className={styles.paragraph}>
       <img src="/deliver_process.jpg" alt="Carro entregado a cliente" />

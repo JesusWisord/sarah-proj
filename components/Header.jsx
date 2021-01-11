@@ -2,17 +2,20 @@ import React from 'react';
 import styles from '../styles/Header.module.scss';
 
 const Header = () => (
-  <header className={styles.header} >
-    <img src="/logo.jpg" alt=""/>
+  <header className={styles.header}>
+    <div>
+      <img src="/logo.jpg" alt="" />
+      <p>(52) 614-511-0894</p>
+    </div>
     <nav>
       <ul>
         <li>
-          <a href="#proceso">
+          <a href="#contact">
             ¿Quieres empeñar?
           </a>
         </li>
         <li>
-          <a href="#proceso">
+          <a href="#catalogo">
             Vehículos en Venta
           </a>
         </li>
@@ -22,7 +25,7 @@ const Header = () => (
           </a>
         </li>
         <li>
-          <a href="#proceso">
+          <a href="#contact">
             Contacto
           </a>
         </li>

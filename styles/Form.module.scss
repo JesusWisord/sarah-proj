@@ -1,6 +1,6 @@
 .formContainer{
   width: 90vw;
-  margin-bottom: 50px;
+  margin: 0 auto 50px;
   form{
     display: flex;
     flex-direction: column;
@@ -15,5 +15,14 @@
     input{
       width: 70%;
     }
+  }
+  button{
+    background-color: #1D83AF;
+    color: #FAFAFA;
+    border: none;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 18px;
   }
 }

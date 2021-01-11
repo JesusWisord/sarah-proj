@@ -6,14 +6,24 @@
   color: #E5E5E5;
 }
 
+.header div{
+  display: flex;
+  p {
+    margin-left: 20px;
+  }
+}
+
 .header img{
   height: 100%;
   width: auto;
 }
 
 .header ul{
-  width: 50vw;
   display: flex;
   justify-content: space-evenly;
   list-style: none;
+}
+
+.header ul li a {
+  margin-right: 10px;
 }

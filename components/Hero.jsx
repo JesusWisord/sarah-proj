@@ -6,13 +6,15 @@ const Hero = () => (
     <img src="/car.png" alt="" />
     <div className={styles.right_side}>
       <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-        Error deleniti cupiditate nemo? Ipsam delectus earum dolor
-        similique omnis expedita beatae sapiente cupiditate, nihil
-        tempore provident recusandae, voluptas eveniet eos mollitia!
+        Brindamos servicios de empeño y venta de vehículos en general.
+        Contamos con servicio de envío y traslado a nivel nacional.
+        Todas nuestras unidades se entregan con: Factura, Contrato compra-venta,
+        Garantía, Baja de Placas y Permiso para circular por 30 días a nivel nacional.
       </p>
       <button type="button">
-        Click Me!
+        <a href="#contact">
+          ¿Quieres empeñar?
+        </a>
       </button>
     </div>
   </div>

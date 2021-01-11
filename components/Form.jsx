@@ -24,7 +24,7 @@ const Form = () => {
   }
 
   return (
-    <div className={styles.formContainer}>
+    <div className={styles.formContainer} id="contact">
       <h1>Contacto</h1>
       <form
         onSubmit={submitForm}
@@ -43,8 +43,8 @@ const Form = () => {
           Teléfono:
           <input type="number" name="number" id="number" />
         </label>
-        {status === 'SUCCESS' ? <p>Thanks!</p> : <button type="button">Submit</button>}
-        {status === 'ERROR' && <p>Ooops! There was an error.</p>}
+        {status === 'SUCCESS' ? <p>¡Nos pondremos en contacto!</p> : <button type="submit">Enviar</button>}
+        {status === 'ERROR' && <p>Hubo un error. Inténtalo más tarde.</p>}
       </form>
     </div>
   );
