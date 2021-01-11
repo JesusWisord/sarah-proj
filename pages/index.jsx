@@ -6,6 +6,7 @@ import Catalogue from '../components/Catalogue';
 import DeliverProcess from '../components/DeliverProcess';
 import Form from '../components/Form';
 import Footer from '../components/Footer';
+import WhatsAppButton from '../components/WhatsAppButton';
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <DeliverProcess />
       <Form />
       <Footer />
+      <WhatsAppButton />
     </>
   );
 }

@@ -7,34 +7,15 @@ const DeliverProcess = () => (
     <div className={styles.paragraph}>
       <img src="/deliver_process.jpg" alt="Carro entregado a cliente" />
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Mauris scelerisque sit pellentesque eget pulvinar hendrerit.
-        Mi felis at eget tincidunt feugiat convallis commodo varius.
-        Tellus sed integer faucibus placerat dignissim faucibus id.
-        Dictum in et, pretium nunc ante leo. In mattis amet aliquam
-        sit rhoncus orci eget maecenas vestibulum. Lorem ipsum dolor
-        sit amet, consectetur adipiscing elit. Mauris scelerisque sit
-        pellentesque eget pulvinar hendrerit. Mi felis at eget tincidunt
-        feugiat convallis commodo varius. Tellus sed integer faucibus
-        placerat dignissim faucibus id. Dictum in et, pretium nunc ante leo.
-        In mattis amet aliquam sit rhoncus orci eget maecenas vestibulum.
+        Contamos con servicio de envios y traslados a nivel nacional en plataforma.
       </p>
     </div>
     <div className={styles.paragraph}>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Mauris scelerisque sit pellentesque eget pulvinar hendrerit.
-        Mi felis at eget tincidunt feugiat convallis commodo varius.
-        Tellus sed integer faucibus placerat dignissim faucibus id.
-        Dictum in et, pretium nunc ante leo. In mattis amet aliquam
-        sit rhoncus orci eget maecenas vestibulum. Lorem ipsum dolor
-        sit amet, consectetur adipiscing elit. Mauris scelerisque sit
-        pellentesque eget pulvinar hendrerit. Mi felis at eget tincidunt
-        feugiat convallis commodo varius. Tellus sed integer faucibus
-        placerat dignissim faucibus id. Dictum in et, pretium nunc ante leo.
-        In mattis amet aliquam sit rhoncus orci eget maecenas vestibulum.
+        Nuestros envíos incluyen seguro de
+        viaje por 72 horas tiempo estimado de entrega a nivel nacional.
       </p>
-      <img src="/deliver_process.jpg" alt="Carro entregado a cliente" />
+      <img src="/deliver_process2.jpg" alt="Carro entregado a cliente" />
     </div>
   </div>
 );

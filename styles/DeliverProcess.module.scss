@@ -1,8 +1,11 @@
 .deliverProcess{
   display: flex;
   flex-direction: column;
+  width: 90vw;
+  margin: 0 auto;
   img{
-    max-height: 300px;
+    max-height: 200px;
+    max-width: 600px;
     margin: 0 40px;
   }
   .paragraph{
