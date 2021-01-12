@@ -33,7 +33,7 @@ const Form = () => {
       >
         <label htmlFor="name">
           Nombre:
-          <input type="text" name="name" id="name" />
+          <input type="text" name="nombre" id="name" />
         </label>
         <label htmlFor="email">
           Email:
@@ -41,7 +41,17 @@ const Form = () => {
         </label>
         <label htmlFor="number">
           Teléfono:
-          <input type="number" name="number" id="number" />
+          <input type="number" name="numero" id="number" />
+        </label>
+        <label htmlFor="comentarios">
+          Comentarios:
+          <textarea
+            type="textarea"
+            name="comentarios"
+            id="comentarios"
+            className={styles.comentarios}
+            placeholder="Cuéntanos ¿En qué podemos ayudarte?"
+          />
         </label>
         {status === 'SUCCESS' ? <p>¡Nos pondremos en contacto!</p> : <button type="submit">Enviar</button>}
         {status === 'ERROR' && <p>Hubo un error. Inténtalo más tarde.</p>}

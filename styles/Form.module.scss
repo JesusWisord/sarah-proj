@@ -13,7 +13,7 @@
     display: flex;
     justify-content: space-between;
     input{
-      width: 70%;
+      width: 60%;
     }
   }
   button{
@@ -24,5 +24,8 @@
     height: 40px;
     border-radius: 10px;
     font-size: 18px;
+  }
+  .comentarios{
+    height: 50px;
   }
 }

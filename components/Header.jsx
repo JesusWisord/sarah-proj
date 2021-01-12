@@ -5,7 +5,7 @@ const Header = () => (
   <header className={styles.header}>
     <div>
       <img src="/logo.jpg" alt="" />
-      <p>(52) 614-511-0894</p>
+      <p>686-417-1354</p>
     </div>
     <nav>
       <ul>
