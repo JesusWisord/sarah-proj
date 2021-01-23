@@ -17,9 +17,9 @@ const Catalogue = () => {
   };
   const handleScroll = (side) => {
     if (side === 'left') {
-      scrollX -= 900;
+      scrollX -= window.innerWidth - 100;
     } else {
-      scrollX += 900;
+      scrollX += window.innerWidth - 100;
     }
     if (scrollX > 9500) {
       scrollX = 8700;

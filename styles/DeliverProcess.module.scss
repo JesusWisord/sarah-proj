@@ -12,8 +12,33 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 10px;
     p {
       margin: 0 50px
+    }
+  }
+}
+
+@media screen and (max-width: 800px){
+  .deliverProcess{
+    img{
+      max-width: 40vw;
+    }
+  }
+}
+
+@media screen and (max-width: 600px){
+  .deliverProcess{
+    .paragraph{
+      flex-direction: column;
+      p {
+        margin: 20px 0;
+        text-align: center;
+      }
+    }
+    img{
+      max-width: 100%;
+      margin-top: 10px
     }
   }
 }

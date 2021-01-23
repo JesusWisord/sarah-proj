@@ -8,6 +8,7 @@
 
 .header div{
   display: flex;
+  max-width: 300px;
   p {
     margin-left: 20px;
   }
@@ -19,11 +20,20 @@
 }
 
 .header ul{
+  margin: 0;
+  height: 100%;
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
   list-style: none;
 }
 
 .header ul li a {
   margin-right: 10px;
+}
+
+@media screen and (max-width: 750px){
+  .header ul{
+    display: none;
+  }
 }

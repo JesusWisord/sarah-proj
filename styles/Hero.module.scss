@@ -18,3 +18,14 @@
   border-radius: 10px;
   font-size: 18px;
 }
+
+@media screen and (max-width: 750px){
+  .hero {
+    img{
+      display: none;
+    }
+    .right_side {
+      width: 80%;
+    }
+  }
+}
