@@ -1,5 +1,6 @@
 import React, { useState, useRef } from 'react';
 import { RiArrowLeftSLine, RiArrowRightSLine } from 'react-icons/ri';
+import { v4 as uuidv4 } from 'uuid';
 import CatalogueItem from './CatalogueItem';
 import Modal from './Modal';
 import styles from '../styles/Catalogue.module.scss';
@@ -38,7 +39,7 @@ const Catalogue = () => {
           : ''}
         {data.map((item, index) => (
           <CatalogueItem
-            key={`car-${index}`}
+            key={uuidv4()}
             image={item.images[0]}
             handleClick={handleClick}
             id={index}

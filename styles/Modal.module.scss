@@ -50,3 +50,33 @@
     }
   }
 }
+
+@media screen and (max-width: 800px){
+  .modal{
+    grid-template-columns: auto;
+    grid-template-rows: 40% auto 1fr;
+    .imageContainer{
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      img{
+        height: 100%;
+        width: auto;
+      }
+    }
+    .textContainer{
+      margin-top: 10px;
+      overflow: scroll;
+    }
+    button{
+      margin: 10px 0;
+      position: initial;
+    }
+  }
+}
+
+@media screen and (max-width: 500px){
+  .imageContainer{
+    width: 50vw;
+  }
+}

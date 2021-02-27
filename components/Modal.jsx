@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { v4 as uuidv4 } from 'uuid';
 import styles from '../styles/Modal.module.scss';
 
 const Modal = ({ data, handleClose }) => {
@@ -8,9 +9,11 @@ const Modal = ({ data, handleClose }) => {
       <div className={styles.imageContainer}>
         <img src={`/catalogue/${data.images[image]}`} alt="main product" />
       </div>
-      <p>
-        {data.data}
-      </p>
+      <div className={styles.textContainer}>
+        <p>
+          {data.data}
+        </p>
+      </div>
       <button
         type="button"
         onClick={() => handleClose()}
@@ -20,6 +23,7 @@ const Modal = ({ data, handleClose }) => {
       <div className={styles.miniImages}>
         {data.images.map((item, index) => (
           <div
+            key={uuidv4()}
             className={styles.miniContainer}
             alt="item"
             onClick={() => setImage(index)}
