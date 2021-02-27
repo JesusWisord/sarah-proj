@@ -18,7 +18,9 @@ const Modal = ({ data, handleClose }) => {
         type="button"
         onClick={() => handleClose()}
       >
-        X
+        {
+          window.innerWidth < 800 ? 'Atrás' : 'X'
+        }
       </button>
       <div className={styles.miniImages}>
         {data.images.map((item, index) => (
