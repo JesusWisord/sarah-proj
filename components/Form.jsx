@@ -13,7 +13,7 @@ const Form = () => {
     xhr.setRequestHeader('Accept', 'application/json');
     xhr.onreadystatechange = () => {
       if (xhr.readyState !== XMLHttpRequest.DONE) return;
-      if (xhr.status === 200) {
+      if (xhr.status === 201) {
         form.reset();
         setStatus('SUCCESS');
       } else {
@@ -28,7 +28,7 @@ const Form = () => {
       <h1>Contacto</h1>
       <form
         onSubmit={submitForm}
-        action="https://formspree.io/f/xoqpkeld"
+        action="https://formbold.com/s/oYVq6"
         method="POST"
       >
         <label htmlFor="name">
