@@ -6,10 +6,14 @@ const Hero = () => (
     <img src="/car.png" alt="" />
     <div className={styles.right_side}>
       <p>
-        Brindamos servicios de empeño y venta de vehículos en general.
-        Contamos con servicio de envío y traslado a nivel nacional.
-        Todas nuestras unidades se entregan con: Factura, Contrato compra-venta,
-        Garantía, Baja de Placas y Permiso para circular por 30 días a nivel nacional.
+        Somos una empresa en soluciones financieras, líderes en el
+        mercado sobre el préstamo de automotores, estamos
+        listos para apoyarte.
+      </p>
+      <p>
+        Si necesitas efectivo y tu automotor puede ser la solución,
+        pero no conoces los requisitos, modalidades y beneficios que te ofrecemos,
+        acércate a nosotros para que podamos ayudarte y apoyarte durante el proceso de empeño.
       </p>
       <button type="button">
         <a href="#contact">

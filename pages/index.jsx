@@ -7,6 +7,9 @@ import DeliverProcess from '../components/DeliverProcess';
 import Form from '../components/Form';
 import Footer from '../components/Footer';
 import WhatsAppButton from '../components/WhatsAppButton';
+import Card from '../components/Card';
+import Information from '../components/Information';
+import Additional from '../components/Additional'
 
 export default function Home() {
   return (
@@ -17,11 +20,12 @@ export default function Home() {
       </Head>
       <Header />
       <Hero />
+      <Card />
       <Catalogue />
-      <DeliverProcess />
+      <Information />
+      <Additional />
       <Form />
       <Footer />
-      <WhatsAppButton />
     </>
   );
 }

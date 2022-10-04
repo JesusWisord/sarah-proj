@@ -4,7 +4,7 @@ import styles from '../styles/Header.module.scss';
 const Header = () => (
   <header className={styles.header}>
     <div>
-      <img src="/logo.jpg" alt="" />
+      <p>SPL S.A. DE C.V.</p>
       <p>686-417-1354</p>
     </div>
     <nav>
@@ -16,12 +16,7 @@ const Header = () => (
         </li>
         <li>
           <a href="#catalogo">
-            Vehículos en Venta
-          </a>
-        </li>
-        <li>
-          <a href="#proceso">
-            Proceso de envío
+            Venta De Vehículos
           </a>
         </li>
         <li>

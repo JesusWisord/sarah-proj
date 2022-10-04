@@ -40,11 +40,9 @@ const Catalogue = () => {
         {data.map((item, index) => (
           <CatalogueItem
             key={uuidv4()}
-            image={item.images[0]}
+            image={item}
             handleClick={handleClick}
             id={index}
-            price={item.price}
-            name={item.name}
           />
         ))}
       </div>
