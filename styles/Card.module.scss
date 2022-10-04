@@ -18,3 +18,12 @@
     align-items: center;
   }
 }
+
+@media screen and (max-width: 700px) {
+  .card_container{
+    grid-template-columns: 1fr;
+    .card{
+      margin: 12px auto;
+    }
+  }
+}
