@@ -1,31 +1,57 @@
 .hero{
-  display: flex;
-  margin: 20px;
-}
-
-.right_side{
-  width: 45vw;
-  margin: auto;
-  text-align: center;
-}
-
-.right_side button{
-  background-color: #1D83AF;
-  color: #FAFAFA;
-  border: none;
-  width: 200px;
-  height: 40px;
-  border-radius: 10px;
-  font-size: 18px;
-}
-
-@media screen and (max-width: 750px){
-  .hero {
+  figure{
+    display: relative;
+    width: 100%;
+    height: auto;
+    margin: 0;
     img{
-      display: none;
+      width: 100%;
     }
-    .right_side {
-      width: 80%;
+  }
+  .float{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    width: 350px;
+    text-align: center;
+    color: black;
+    button, a{
+      background-color: black;
+      color: white;
+      font-size: 18px;
+      border: 0;
+      padding: 5px;
+    }
+  }
+}
+
+  
+
+@media screen and (max-width: 900px){
+  .hero{
+    .float{
+      left: 2vw;
+      top: 20vh;
+      font-size: 1em;
+    }
+  }
+}
+
+@media screen and (max-width: 900px){
+  .hero{
+    .float{
+      top: 10%;
+      width: 100%;
+      box-sizing: border-box;
+      background-color: rgba(255,255,255,0.3);
+    }
+    figure{
+      display: relative;
+      height: 100%;
+      margin: 0;
+      img{
+        height: 100%;
+      }
     }
   }
 }
