@@ -3,25 +3,19 @@ import styles from '../styles/Header.module.scss';
 
 const Header = () => (
   <header className={styles.header}>
-    <div>
-      <p>SPL S.A. DE C.V.</p>
-      <p>686-417-1354</p>
-    </div>
+    <figure className={styles.logo}>
+      <img src="spl_logo.png"></img>
+    </figure>
     <nav>
       <ul>
         <li>
           <a href="#contact">
-            ¿Quieres empeñar?
+            Inicio
           </a>
         </li>
         <li>
           <a href="#catalogo">
-            Venta De Vehículos
-          </a>
-        </li>
-        <li>
-          <a href="#contact">
-            Contacto
+            Envíos y Traslados
           </a>
         </li>
       </ul>

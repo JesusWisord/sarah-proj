@@ -1,9 +1,8 @@
 .header{
   height: 50px;
   display: flex;
-  justify-content: space-between;
-  background-color: #0E4056;
-  color: #E5E5E5;
+  justify-content: flex-start;
+  color: #000000;
 }
 
 .header div{
@@ -30,6 +29,12 @@
 
 .header ul li a {
   margin-right: 10px;
+}
+
+.logo{
+  height: 100%;
+  margin: 0;
+  padding-left: 12px;
 }
 
 @media screen and (max-width: 750px){
