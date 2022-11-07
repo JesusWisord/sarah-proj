@@ -1,22 +1,25 @@
 import React from 'react';
 import styles from '../styles/Header.module.scss';
+import Link from 'next/link';
 
 const Header = () => (
   <header className={styles.header}>
+  <Link href="/">
     <figure className={styles.logo}>
-      <img src="spl_logo.png"></img>
+      <img src="/spl_logo.png"></img>
     </figure>
+  </Link>
     <nav>
       <ul>
         <li>
-          <a href="#contact">
+          <Link href="/">
             Inicio
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#catalogo">
+          <Link href="/envios">
             Envíos y Traslados
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>

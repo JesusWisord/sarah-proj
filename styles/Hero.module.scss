@@ -1,4 +1,7 @@
 .hero{
+  height: 450px;
+  overflow: hidden;
+  display: flex;
   figure{
     display: relative;
     width: 100%;
@@ -10,7 +13,7 @@
   }
   .float{
     position: absolute;
-    top: 40%;
+    top: 20%;
     left: 10%;
     width: 350px;
     text-align: center;

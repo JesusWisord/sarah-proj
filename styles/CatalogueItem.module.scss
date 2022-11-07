@@ -1,9 +1,12 @@
 .catalogue_item{
-  height: 100%;
+  width: 100%;
   cursor: pointer;
-  margin: 0 10px;
-  text-align: center;
+  overflow: hidden;
   img{
-    height: 70%;
+    width: 90%;
   }
+}
+
+.no_pointer{
+  cursor: none;
 }

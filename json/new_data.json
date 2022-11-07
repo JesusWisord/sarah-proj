@@ -1,0 +1,68 @@
+[
+  {
+    "info": "TOYOTA RAV4 2020 VERSION ADVENTURE 28,000.00 KILOMETROS FACTURA ORIGINAL $445,000.00 PESOS",
+    "images": [
+      "toyota_1.jpeg",
+      "toyota_2.jpeg",
+      "toyota_3.jpeg",
+      "toyota_4.jpeg",
+      "toyota_5.jpeg"
+    ]
+  },
+  {
+    "info": "NISSAN SENTRA 2017 VERSION ADVANCE FACTURA ORIGINAL $155,000.00 PESOS",
+    "images": [
+      "sentra_5.jpeg",
+      "sentra_4.jpeg",
+      "sentra_3.jpeg",
+      "sentra_2.jpeg",
+      "sentra_1.jpeg"
+    ]
+  },
+  {
+    "info": "BMW M4 2016 42,000.00 KILOMETROS FACTURA ORIGINAL $655,000.00",
+    "images": [
+      "bmw_3.jpeg",
+      "bmw_2.jpeg",
+      "bmw_1.jpeg",
+      "bmw_4.jpeg"
+    ]
+  },
+  {
+    "info": "FORD EDGE MODELO 2013 76,000.00 KILOMETROS $215,000.00",
+    "images": [
+      "edge_1.jpeg",
+      "edge_2.jpeg",
+      "edge_3.jpeg",
+      "edge_4.jpeg"
+    ]
+  },
+  {
+    "info": "FORD FUSION MODELO 2015 66,000.00 KILOMETROS $139,000.00",
+    "images": [
+      "fusion_2.jpeg",
+      "fusion_1.jpeg",
+      "fusion_4.jpeg",
+      "fusion_3.jpeg"
+    ]
+  },
+  {
+    "info": "MINI COOPER 2.0 S HOT CHILLI STANDARD 5 VEL. MODELO 2016 47,000.00 KILOMETROS $299,000.00",
+    "images": [
+      "mini_1.jpeg",
+      "mini_4.jpeg",
+      "mini_3.jpeg",
+      "mini_2.jpeg"
+    ]
+  },
+  {
+    "info": "AUDI Q7 MODELO 2018 48,000.00 KILOMETROS $445,900.00",
+    "images": [
+      "audi_3.jpeg",
+      "audi_2.jpeg",
+      "audi_5.jpeg",
+      "audi_1.jpeg",
+      "audi_4.jpeg"
+    ]
+  }
+]
