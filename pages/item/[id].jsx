@@ -20,7 +20,7 @@ export default function Item() {
         <img src={`/new_catalogue/${data[id]?.images[0]}`} />
       </figure>
       <p className={styles.info}>
-        {data[id].info}
+        {data[id]?.info}
       </p>
       <div className={styles.catalogue_container}>
         {data[id]?.images.map((item, index) => (
