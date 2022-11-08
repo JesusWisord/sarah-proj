@@ -8,6 +8,7 @@ import Footer from '../components/Footer';
 import Information from '../components/Information';
 import Additional from '../components/Additional';
 import FeaturedCatalogue from '../components/FeaturedCatalogue';
+import WhatsAppButton from '../components/WhatsAppButton';
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <Information />
       <Additional />
       <Form />
+      <WhatsAppButton />
       <Footer />
     </>
   );
